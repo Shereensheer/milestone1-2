@@ -1,0 +1,64 @@
+  
+    body {
+        background-color: azure;
+        margin: 0;
+        padding: 20px; /* Adding padding for better content spacing */
+        font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+      display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+      
+    }
+  
+  
+  span{
+    font-size: 17px;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+ 
+.red{
+    width: 200px;
+    padding: 29px;
+    display:inline-block;
+    background-color: rgb(224, 147, 147);
+    padding:100px;
+    height:600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px black;
+    
+}
+.yellow{
+    display: inline-block;
+    background-color: antiquewhite; 
+    padding:23px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px black;
+    text-align: center;
+}
+
+img{
+    width: 85%;
+   border-radius: 200px;;
+}
+/* 
+.orange{
+  box-shadow: 4px 4px 4px 4px rgb(122, 121, 121);
+  text-align: center;
+  padding: 100px;
+  
+} */
+
+button{
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(235, 119, 119),pink);
+}
+button:hover{
+    background-image: linear-gradient(rgb(243, 108, 225),rgb(173, 41, 63));
+}
